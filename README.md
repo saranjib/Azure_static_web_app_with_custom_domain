@@ -1,0 +1,1 @@
+# Azure_static_web_app_with_custom_domain
