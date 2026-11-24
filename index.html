@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="A modern cloud engineering portfolio.">
+  <title>CloudCraft — Cloud & DevOps Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="ambient ambient-one"></div><div class="ambient ambient-two"></div>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="logo" href="#top"><span class="logo-symbol">✦</span> cloudcraft<span class="logo-dot">.</span></a>
+      <button class="menu-btn" aria-label="Toggle menu" aria-expanded="false">☰</button>
+      <nav class="nav" id="nav">
+        <a href="#work">Projects</a><a href="#services">What I do</a><a href="#about">About</a>
+        <a href="#contact" class="nav-cta">Let's connect <span>↗</span></a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero container">
+      <div class="hero-copy">
+        <div class="availability"><span></span> LEARNING · BUILDING · AUTOMATING</div>
+        <h1>Cloud ideas.<br><span class="gradient-text">Real-world builds.</span></h1>
+        <p class="hero-sub">I design and build secure, scalable cloud infrastructure with Azure, Terraform, and DevOps tools—one hands-on project at a time.</p>
+        <div class="hero-actions"><a href="#work" class="btn btn-primary">Explore projects <span>↗</span></a><a href="#about" class="btn btn-ghost">A little about me <span>↓</span></a></div>
+        <div class="mini-stats"><div><strong>Azure</strong><small>Cloud platform</small></div><div><strong>IaC</strong><small>Infrastructure as code</small></div><div><strong>CI/CD</strong><small>Delivery automation</small></div></div>
+      </div>
+      <div class="hero-visual">
+        <div class="visual-frame">
+          <div class="frame-top"><span class="window-dots"><i></i><i></i><i></i></span><span>cloud / architecture</span><span class="frame-status">● LIVE CONCEPT</span></div>
+          <div class="orbit orbit-a"></div><div class="orbit orbit-b"></div>
+          <div class="core-cloud"><div class="cloud-icon">☁</div><span>AZURE CLOUD</span></div>
+          <div class="float-card fc-top"><span class="fc-icon blue">⌘</span><div><b>Infrastructure</b><small>Terraform · IaC</small></div><span class="check">✓</span></div>
+          <div class="float-card fc-left"><span class="fc-icon violet">▦</span><div><b>Networking</b><small>VNet · Security</small></div></div>
+          <div class="float-card fc-right"><span class="fc-icon mint">↗</span><div><b>Automation</b><small>CI/CD pipelines</small></div></div>
+          <div class="float-card fc-bottom"><span class="fc-icon orange">◉</span><div><b>Observability</b><small>Metrics · Alerts</small></div></div>
+          <div class="spark spark-1">✦</div><div class="spark spark-2">✧</div><div class="spark spark-3">✦</div>
+        </div>
+      </div>
+    </section>
+
+    <div class="ticker"><div class="ticker-inner"><span>AZURE CLOUD</span><b>✦</b><span>TERRAFORM</span><b>✦</b><span>DEVOPS</span><b>✦</b><span>NETWORKING</span><b>✦</b><span>SECURITY</span><b>✦</b><span>AZURE CLOUD</span><b>✦</b><span>TERRAFORM</span><b>✦</b><span>DEVOPS</span></div></div>
+
+    <section class="section container" id="work">
+      <div class="section-head"><div><p class="kicker">SELECTED BUILDS</p><h2>Projects with a <span class="gradient-text">purpose.</span></h2></div><p class="section-note">Learning by doing. Designing for the real world.</p></div>
+      <div class="projects">
+        <article class="project project-large">
+          <div class="project-art art-network">
+            <div class="network-label">NETWORK TOPOLOGY / 01</div>
+            <div class="hub">HUB<br><small>Azure Firewall</small></div>
+            <div class="spoke spoke-one">SPOKE 01</div><div class="spoke spoke-two">SPOKE 02</div><div class="spoke spoke-three">SPOKE 03</div>
+            <div class="line ln1"></div><div class="line ln2"></div><div class="line ln3"></div>
+          </div>
+          <div class="project-info"><div class="project-meta"><span>01 / CLOUD NETWORKING</span><span class="project-status">IN PROGRESS</span></div><h3>Enterprise Hub & Spoke</h3><p>Centralized network architecture with secure routing, firewall controls, segmented workloads, and monitoring.</p><div class="chips"><span>Azure</span><span>Terraform</span><span>Networking</span></div><a class="project-link" href="https://github.com/" target="_blank" rel="noopener">View repository <span>↗</span></a></div>
+        </article>
+        <article class="project">
+          <div class="project-art art-pipeline"><div class="pipeline-flow"><span>CODE</span><i>→</i><span>BUILD</span><i>→</i><span>DEPLOY</span></div><div class="pipeline-glow"></div><div class="pipeline-caption">AUTOMATED DELIVERY</div></div>
+          <div class="project-info"><div class="project-meta"><span>02 / AUTOMATION</span><span class="project-status">LAB</span></div><h3>CI/CD Starter Pipeline</h3><p>From source control to repeatable deployment with automated checks and clear release stages.</p><div class="chips"><span>GitHub Actions</span><span>Azure</span></div><a class="project-link" href="https://github.com/" target="_blank" rel="noopener">View repository <span>↗</span></a></div>
+        </article>
+        <article class="project">
+          <div class="project-art art-monitor"><div class="monitor-grid"></div><div class="monitor-panel"><span>RESOURCE HEALTH</span><div class="chart-bars"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div><div class="chart-line">〰〰〰〰</div><strong>99.9%</strong><small>Availability view</small></div></div>
+          <div class="project-info"><div class="project-meta"><span>03 / OBSERVABILITY</span><span class="project-status">LAB</span></div><h3>Cloud Monitoring Center</h3><p>Metrics, logs, dashboards, and alert rules to make infrastructure health easier to understand.</p><div class="chips"><span>Azure Monitor</span><span>Log Analytics</span></div><a class="project-link" href="https://github.com/" target="_blank" rel="noopener">View repository <span>↗</span></a></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section services-section" id="services">
+      <div class="container">
+        <div class="section-head"><div><p class="kicker">MY FOCUS</p><h2>What I like <span class="gradient-text">building.</span></h2></div></div>
+        <div class="focus-grid">
+          <div class="focus-item"><div class="focus-icon">⌁</div><h3>Cloud Architecture</h3><p>Reliable foundations: compute, storage, network design, and cloud resource organization.</p><span>01</span></div>
+          <div class="focus-item"><div class="focus-icon">⌘</div><h3>Infrastructure as Code</h3><p>Version-controlled infrastructure, reusable modules, and predictable deployments.</p><span>02</span></div>
+          <div class="focus-item"><div class="focus-icon">↗</div><h3>DevOps & Delivery</h3><p>Build pipelines, automation, deployment workflows, and continuous improvement.</p><span>03</span></div>
+          <div class="focus-item"><div class="focus-icon">◉</div><h3>Security & Monitoring</h3><p>Least privilege, network controls, visibility, alerts, and operational readiness.</p><span>04</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section about-section container" id="about">
+      <div class="about-card"><div class="about-mark">✦</div><div><p class="kicker">A BIT ABOUT ME</p><h2>Curiosity is my <span class="gradient-text">superpower.</span></h2><p class="about-text">I’m growing my cloud engineering skills through practical labs and portfolio projects. I love breaking complex cloud concepts into understandable pieces, documenting what I learn, and turning ideas into working infrastructure.</p><div class="skill-tags"><span>Microsoft Azure</span><span>Terraform</span><span>GitHub</span><span>Azure DevOps</span><span>Linux</span><span>Networking</span><span>PowerShell</span><span>HTML / CSS</span></div></div></div>
+    </section>
+
+    <section class="contact-section" id="contact"><div class="container contact-inner"><div><p class="kicker">YOUR TURN</p><h2>Let’s make something<br><span class="gradient-text">cloud-ready.</span></h2><p>Have an idea, feedback, or want to connect? Reach out.</p></div><a href="mailto:hello@example.com" class="btn btn-primary contact-btn">Say hello <span>↗</span></a></div></section>
+  </main>
+  <footer class="footer container"><a class="logo" href="#top"><span class="logo-symbol">✦</span> cloudcraft<span class="logo-dot">.</span></a><p>Built with curiosity and a little cloud magic.</p><a href="#top" class="top-link">Back to top ↑</a></footer>
+  <script src="script.js"></script>
+</body>
+</html>
