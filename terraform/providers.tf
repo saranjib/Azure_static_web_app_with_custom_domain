@@ -1,17 +1,24 @@
 terraform {
-  required_version = ">= 1.6.0"
+  required_version = ">= 1.8.0"
 
   required_providers {
     azurerm = {
       source  = "hashicorp/azurerm"
-      version = ">= 4.0, < 6.0"
+      version = "~> 4.81"
+    }
+
+    random = {
+      source  = "hashicorp/random"
+      version = "~> 3.7"
     }
   }
-
-  backend "azurerm" {}
 }
 
 provider "azurerm" {
   features {}
+  subscription_id = ""
+  client_id       = ""
+  tenant_id       = ""
+  client_secret   = "" # Must be the 'Value', not 'Secret ID'
 }
 
